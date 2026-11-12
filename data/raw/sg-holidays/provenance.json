@@ -1,0 +1,13 @@
+{
+  "id": "mom-consolidated",
+  "publisher": "Ministry of Manpower, Singapore",
+  "title": "Singapore Public Holidays (consolidated)",
+  "url": "https://data.gov.sg/datasets/d_8ef23381f9417e4d4254ee8b4dcdb176/view",
+  "downloadUrl": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000",
+  "retrievedAt": "2026-11-12T05:34:58.992Z",
+  "verifiedAt": "2026-11-12",
+  "reviewer": "Codex source comparison; ongoing owner: project owner",
+  "sha256": "99ac6c01e6f46054fa5e3ef4effa6cf1567ef8f5e9ec6632ffaff5c42ffe6ae6",
+  "license": "https://data.gov.sg/open-data-licence",
+  "attribution": "Contains information from Singapore Public Holidays (consolidated), Ministry of Manpower, accessed on 12 November 2026 from data.gov.sg under the Singapore Open Data Licence version 1.0."
+}

@@ -1,0 +1,11 @@
+{
+  "verifiedAt": "2026-11-12",
+  "reviewer": "Codex: source rule review and HKO PDF date comparison",
+  "country": "SG",
+  "scope": "Selected Chinese observances only; not exhaustive cultural coverage",
+  "rights": "Only factual festival names and month/day rules are encoded. No publisher prose, images or page layout is redistributed. Computed dates use separately licensed HKO data.",
+  "rules": [
+    {"id": "dragon-boat", "month": 5, "day": 5, "url": "https://culturepaedia.singaporeccc.org.sg/social-practices/festivals/the-dragon-boat-festival-in-singapore/"},
+    {"id": "mid-autumn", "month": 8, "day": 15, "url": "https://festivefever.singaporeccc.org.sg/mid-autumn/archival/2023/about/"}
+  ]
+}

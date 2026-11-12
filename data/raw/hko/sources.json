@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hko-2026",
+    "year": 2026,
+    "file": "2026.csv",
+    "url": "https://data.weather.gov.hk/weatherAPI/hko_data/calendar/nongli_calendar_2026.csv",
+    "sha256": "8b2892b0e04faa632f09ea36ffee29e67b4427b85a18708d907d88d8be452b98",
+    "retrievedAt": "2026-11-12T05:11:11.925Z",
+    "terms": "https://data.gov.hk/en/terms-and-conditions",
+    "attribution": "Source: Hong Kong Observatory, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK."
+  },
+  {
+    "id": "hko-2027",
+    "year": 2027,
+    "file": "2027.csv",
+    "url": "https://data.weather.gov.hk/weatherAPI/hko_data/calendar/nongli_calendar_2027.csv",
+    "sha256": "11de6b80c61769851aa579af009dc728ca4c544b75b9a0a466ef36446c6bb4fe",
+    "retrievedAt": "2026-11-12T05:11:11.978Z",
+    "terms": "https://data.gov.hk/en/terms-and-conditions",
+    "attribution": "Source: Hong Kong Observatory, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK."
+  }
+]

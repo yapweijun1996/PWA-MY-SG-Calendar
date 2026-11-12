@@ -2,11 +2,56 @@
   "name": "pwa-my-sg-calendar-docs",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
   "scripts": {
     "build": "node scripts/build-site.mjs",
-    "check": "node scripts/check-site.mjs"
+    "data:build": "node scripts/build-calendar-data.mjs && node scripts/build-holiday-data.mjs",
+    "icons:build": "node scripts/build-icons.mjs",
+    "licenses:build": "node scripts/build-notices.mjs",
+    "test:pwa": "node scripts/test-pwa.mjs",
+    "check": "node scripts/check-site.mjs",
+    "dev:app": "vite --config vite.app.config.ts",
+    "typecheck:app": "tsc --project tsconfig.app.json --noEmit",
+    "lint:app": "eslint app vite.app.config.ts playwright.config.ts --max-warnings 0",
+    "test:app": "vitest run --config vite.app.config.ts",
+    "check:app": "npm run typecheck:app && npm run lint:app && npm run test:app",
+    "build:app": "npm run typecheck:app && vite build --config vite.app.config.ts",
+    "preview:app": "vite preview --config vite.app.config.ts",
+    "test:browser": "npm run build:app && playwright test"
   },
-  "devDependencies": { "marked": "18.2.0" }
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.65.0",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "eslint": "10.14.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "fake-indexeddb": "6.2.8",
+    "jsdom": "27.4.0",
+    "marked": "18.2.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.2",
+    "vite": "8.3.8",
+    "vite-plugin-pwa": "2.0.0",
+    "vitest": "4.1.12",
+    "workbox-build": "7.4.1",
+    "workbox-core": "7.4.1",
+    "workbox-precaching": "7.4.1",
+    "workbox-routing": "7.4.1"
+  },
+  "overrides": {
+    "minimatch": "11.0.1",
+    "glob": "14.0.5"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
 }

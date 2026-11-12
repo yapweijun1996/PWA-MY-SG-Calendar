@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "file": "chinese-2026-2027.json",
+      "version": "hko-2026-2027-862287abf7fa",
+      "sha256": "99c30e8252feb4e9242633a5bc6d36a2ab0b907002f03c2096c11e69143039e6"
+    },
+    {
+      "file": "holidays-2026-2027.json",
+      "version": "holidays-2026-2027-2933dc6f80cd",
+      "sha256": "2d50ba5cea72c0b8f745ab527ea336700375a71f63b8f8928604ac3b3d1a4ab8"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const url='https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000';
+const response=await fetch(url,{signal:AbortSignal.timeout(20000)});
+if(!response.ok)throw new Error(`Source HTTP ${response.status}`);
+const bytes=Buffer.from(await response.arrayBuffer());const input=JSON.parse(bytes);
+if(!input.success||input.result.total!==input.result.records.length)throw new Error('Incomplete source response');
+const directory=new URL('../data/raw/sg-holidays/',import.meta.url);await mkdir(directory,{recursive:true});
+await writeFile(new URL('source.json',directory),bytes,{flag:'wx'});
+await writeFile(new URL('provenance.json',directory),JSON.stringify({id:'mom-consolidated',publisher:'Ministry of Manpower, Singapore',title:'Singapore Public Holidays (consolidated)',url:'https://data.gov.sg/datasets/d_8ef23381f9417e4d4254ee8b4dcdb176/view',downloadUrl:url,retrievedAt:new Date().toISOString(),verifiedAt:'2026-11-12',reviewer:'Codex source comparison; ongoing owner: project owner',sha256:createHash('sha256').update(bytes).digest('hex'),license:'https://data.gov.sg/open-data-licence',attribution:'Contains information from Singapore Public Holidays (consolidated), Ministry of Manpower, accessed on 12 November 2026 from data.gov.sg under the Singapore Open Data Licence version 1.0.'},null,2)+'\n',{flag:'wx'});
+console.log(`Pinned ${input.result.total} source records; only 2026-2027 will be packaged.`);

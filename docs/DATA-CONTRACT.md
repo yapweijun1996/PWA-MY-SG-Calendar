@@ -1,7 +1,7 @@
 # Calendar and Holiday Data Contract
 
-Status: proposed semantic contract. No production dataset or executable schema
-has been created. Baseline: 2026-11-12.
+Status: implemented Chinese/holiday runtime validators and Saka adapter; full observance/MY data remain incomplete. Owner-selected arithmetic Hijri is
+implemented with explicit estimate status. Updated: 2026-11-12.
 
 ## Separate concepts
 
@@ -15,7 +15,7 @@ Never turn a computed date or an unreviewed third-party API response into an
 official record. Do not apply one jurisdiction's substitution/weekend logic to
 another. This document defines product integrity, not legal advice or legal rules.
 
-## Proposed record semantics
+## Record semantics
 
 | Field | Meaning and validation |
 | --- | --- |
@@ -31,9 +31,11 @@ another. This document defines product integrity, not legal advice or legal rule
 | sourceRefs | References to evidence supporting this occurrence and applicability |
 | datasetVersion | Immutable release identity for the containing data pack |
 
-The jurisdiction registry must distinguish national coverage from subdivision
-coverage and validate all targeted Malaysian states/federal territories. Use a
-stable code system after verifying its authoritative mapping; do not invent codes.
+The registry includes SG and MY-01 through MY-16, checked against the
+[LHDN state-code list](https://sdk.myinvois.hasil.gov.my/codes/state-codes/).
+Empty subdivision applicability means national scope within the record's country.
+The registry validates all 13 states and 3 federal territories; available region
+selection does not imply verified holiday coverage.
 An applicability query may combine national and subdivision entries but must not
 duplicate the same occurrence.
 
@@ -55,6 +57,16 @@ status; do not select the newest retrieval timestamp as automatic truth.
 Track coverage by country/subdivision, year, dataset version and record category.
 An empty verified result means "no applicable records in a covered interval."
 Missing, incomplete or unverified coverage means "unknown/unavailable," not zero.
+The UI distinguishes `incomplete` (some source-backed records are available) from
+`unknown` (coverage has not been established). Neither permits a verified-empty
+message. Source disclosures are selected through the current region/year coverage
+references rather than all sources belonging to a country.
+
+MY curation keeps `annualRecords` and explicit `changes` in one owning input.
+`confirm` adds declaration evidence, `replace-date` withdraws the original while
+retaining its provenance and adds the corrected date, and `add` requires explicit
+subdivision scope. Observed dates require an original record link. There is no
+weekday-based fallback or automatic extension of a special holiday into later years.
 
 Keep source verification date separate from download time. A pack downloaded
 today can contain old or incomplete information. Make corrections versioned and
@@ -71,13 +83,17 @@ boundaries and known disagreement cases. Reference expected values independently
 from the implementation under test. Do not call a library-derived fixture proof
 of that same library's correctness.
 
-The first Chinese adapter will use HKO annual lookup tables, with numeric month/day
+The Chinese adapter uses HKO annual lookup tables, with numeric month/day
 and an explicit leap-month flag after normalization. Preserve raw source values and
 provenance; never derive a numeric lunar year from the Gregorian year alone. Method
 identifier: `hko-table`; version comes from the pinned source snapshot/pack.
 
-The Hijri method and Indian-calendar tradition remain deferred choices. Do not present
-a generic method as the locally confirmed religious or official determination.
+The Indian method is `indian-national-saka`, version `saka-gregorian-v1`, supported
+for 1900-2100 civil dates. The owner selected `islamic-civil`, version `tabular-friday-v1`, for 1900-2100.
+It returns `confidence: calculated-estimate` and `regionalVerification: unavailable`;
+regional official mapping is not implied. The civil date labels the daytime portion,
+not an instant-based sunset calculation. Do not present a generic method as a locally confirmed
+religious or official determination.
 Keep any future astronomy calculation separate from official announcements.
 
 ## Localization and distribution
@@ -85,4 +101,7 @@ Keep any future astronomy calculation separate from official announcements.
 Translations change labels, never IDs, applicability or dates. Record fallback and
 review state; do not advertise complete four-language coverage with hidden missing
 translations. Preserve proper names where required and test Tamil rendering with
-actual content. Confirm redistribution rights before packaging third-party data.
+actual content. Confirm redistribution rights before packaging third-party data. Source
+`rightsKind` distinguishes a dataset license from a factual reference; for factual
+references, the rights URL points to the referenced page and does not assert an
+open-content license. No third-party article prose or artwork is packaged.

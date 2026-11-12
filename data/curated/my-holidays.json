@@ -1,0 +1,1708 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-12",
+  "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+  "rights": "Original factual transcription of dates, event identities and jurisdiction applicability. No source PDF, article prose, official logo or layout is distributed. Reference documents retain their own terms.",
+  "annualRecords": [
+    {
+      "date": "2026-01-01",
+      "nameKey": "new-year",
+      "subdivisionIds": [
+        "MY-04",
+        "MY-05",
+        "MY-06",
+        "MY-07",
+        "MY-08",
+        "MY-10",
+        "MY-12",
+        "MY-13",
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 1"
+    },
+    {
+      "date": "2026-01-14",
+      "nameKey": "negeri-sembilan-ruler-birthday",
+      "subdivisionIds": [
+        "MY-05"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 2"
+    },
+    {
+      "date": "2026-01-17",
+      "nameKey": "israk-mikraj",
+      "subdivisionIds": [
+        "MY-02",
+        "MY-05",
+        "MY-09",
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 3"
+    },
+    {
+      "date": "2026-02-01",
+      "nameKey": "federal-territory-day",
+      "subdivisionIds": [
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 4"
+    },
+    {
+      "date": "2026-02-01",
+      "nameKey": "thaipusam",
+      "subdivisionIds": [
+        "MY-01",
+        "MY-05",
+        "MY-07",
+        "MY-08",
+        "MY-10",
+        "MY-14",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 5"
+    },
+    {
+      "date": "2026-02-17",
+      "nameKey": "chinese-new-year",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 6"
+    },
+    {
+      "date": "2026-02-18",
+      "nameKey": "chinese-new-year-day-2",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 7"
+    },
+    {
+      "date": "2026-02-19",
+      "nameKey": "awal-ramadan",
+      "subdivisionIds": [
+        "MY-01",
+        "MY-02"
+      ],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 8"
+    },
+    {
+      "date": "2026-02-20",
+      "nameKey": "melaka-independence-declaration",
+      "subdivisionIds": [
+        "MY-04"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 9"
+    },
+    {
+      "date": "2026-03-04",
+      "nameKey": "terengganu-installation",
+      "subdivisionIds": [
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 10"
+    },
+    {
+      "date": "2026-03-07",
+      "nameKey": "nuzul-quran",
+      "subdivisionIds": [
+        "MY-03",
+        "MY-06",
+        "MY-07",
+        "MY-08",
+        "MY-09",
+        "MY-10",
+        "MY-11",
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 11"
+    },
+    {
+      "date": "2026-03-21",
+      "nameKey": "hari-raya-puasa",
+      "subdivisionIds": [],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 12"
+    },
+    {
+      "date": "2026-03-22",
+      "nameKey": "hari-raya-puasa-day-2",
+      "subdivisionIds": [],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 13"
+    },
+    {
+      "date": "2026-03-23",
+      "nameKey": "johor-sultan-birthday",
+      "subdivisionIds": [
+        "MY-01"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 14"
+    },
+    {
+      "date": "2026-03-23",
+      "nameKey": "hari-raya-puasa-day-3",
+      "subdivisionIds": [
+        "MY-04"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 15"
+    },
+    {
+      "date": "2026-03-30",
+      "nameKey": "sabah-governor-birthday",
+      "subdivisionIds": [
+        "MY-12"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 16"
+    },
+    {
+      "date": "2026-04-03",
+      "nameKey": "good-friday",
+      "subdivisionIds": [
+        "MY-12",
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 17"
+    },
+    {
+      "date": "2026-04-26",
+      "nameKey": "terengganu-sultan-birthday",
+      "subdivisionIds": [
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 18"
+    },
+    {
+      "date": "2026-05-01",
+      "nameKey": "labour-day",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 19"
+    },
+    {
+      "date": "2026-05-17",
+      "nameKey": "perlis-raja-birthday",
+      "subdivisionIds": [
+        "MY-09"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 20"
+    },
+    {
+      "date": "2026-05-22",
+      "nameKey": "pahang-hol",
+      "subdivisionIds": [
+        "MY-06"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 21"
+    },
+    {
+      "date": "2026-05-26",
+      "nameKey": "arafah",
+      "subdivisionIds": [
+        "MY-03",
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 22"
+    },
+    {
+      "date": "2026-05-27",
+      "nameKey": "hari-raya-haji",
+      "subdivisionIds": [],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 23"
+    },
+    {
+      "date": "2026-05-28",
+      "nameKey": "hari-raya-haji-day-2",
+      "subdivisionIds": [
+        "MY-02",
+        "MY-03",
+        "MY-09",
+        "MY-11"
+      ],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 24"
+    },
+    {
+      "date": "2026-05-30",
+      "nameKey": "kaamatan",
+      "subdivisionIds": [
+        "MY-12",
+        "MY-15"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 25"
+    },
+    {
+      "date": "2026-05-31",
+      "nameKey": "vesak",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 26"
+    },
+    {
+      "date": "2026-05-31",
+      "nameKey": "kaamatan-day-2",
+      "subdivisionIds": [
+        "MY-12",
+        "MY-15"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 27"
+    },
+    {
+      "date": "2026-06-01",
+      "nameKey": "agong-birthday",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 28"
+    },
+    {
+      "date": "2026-06-01",
+      "nameKey": "gawai",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 29"
+    },
+    {
+      "date": "2026-06-02",
+      "nameKey": "gawai-day-2",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 30"
+    },
+    {
+      "date": "2026-06-17",
+      "nameKey": "awal-muharram",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 31"
+    },
+    {
+      "date": "2026-06-21",
+      "nameKey": "kedah-sultan-birthday",
+      "subdivisionIds": [
+        "MY-02"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 32"
+    },
+    {
+      "date": "2026-07-07",
+      "nameKey": "george-town-heritage",
+      "subdivisionIds": [
+        "MY-07"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 33"
+    },
+    {
+      "date": "2026-07-11",
+      "nameKey": "penang-governor-birthday",
+      "subdivisionIds": [
+        "MY-07"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 34"
+    },
+    {
+      "date": "2026-07-21",
+      "nameKey": "johor-hol",
+      "subdivisionIds": [
+        "MY-01"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 35"
+    },
+    {
+      "date": "2026-07-22",
+      "nameKey": "sarawak-day",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 36"
+    },
+    {
+      "date": "2026-07-31",
+      "nameKey": "pahang-sultan-birthday",
+      "subdivisionIds": [
+        "MY-06"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 37"
+    },
+    {
+      "date": "2026-08-24",
+      "nameKey": "melaka-governor-birthday",
+      "subdivisionIds": [
+        "MY-04"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 38"
+    },
+    {
+      "date": "2026-08-25",
+      "nameKey": "maulidur-rasul",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 39"
+    },
+    {
+      "date": "2026-08-31",
+      "nameKey": "my-national-day",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 40"
+    },
+    {
+      "date": "2026-09-16",
+      "nameKey": "malaysia-day",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 41"
+    },
+    {
+      "date": "2026-09-29",
+      "nameKey": "kelantan-sultan-birthday",
+      "subdivisionIds": [
+        "MY-03"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 42"
+    },
+    {
+      "date": "2026-09-30",
+      "nameKey": "kelantan-sultan-birthday-day-2",
+      "subdivisionIds": [
+        "MY-03"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 43"
+    },
+    {
+      "date": "2026-10-10",
+      "nameKey": "sarawak-governor-birthday",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 44"
+    },
+    {
+      "date": "2026-11-06",
+      "nameKey": "perak-sultan-birthday",
+      "subdivisionIds": [
+        "MY-08"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 45"
+    },
+    {
+      "date": "2026-11-08",
+      "nameKey": "deepavali",
+      "subdivisionIds": [
+        "MY-01",
+        "MY-02",
+        "MY-03",
+        "MY-04",
+        "MY-05",
+        "MY-06",
+        "MY-07",
+        "MY-08",
+        "MY-09",
+        "MY-10",
+        "MY-11",
+        "MY-12",
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 46"
+    },
+    {
+      "date": "2026-12-11",
+      "nameKey": "selangor-sultan-birthday",
+      "subdivisionIds": [
+        "MY-10"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 47"
+    },
+    {
+      "date": "2026-12-24",
+      "nameKey": "christmas-eve",
+      "subdivisionIds": [
+        "MY-12"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 48"
+    },
+    {
+      "date": "2026-12-25",
+      "nameKey": "christmas",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2026"
+      ],
+      "evidence": "Combined annual table row(s) 49"
+    },
+    {
+      "date": "2027-01-01",
+      "nameKey": "new-year",
+      "subdivisionIds": [
+        "MY-04",
+        "MY-05",
+        "MY-06",
+        "MY-07",
+        "MY-08",
+        "MY-10",
+        "MY-12",
+        "MY-13",
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 1"
+    },
+    {
+      "date": "2027-01-06",
+      "nameKey": "israk-mikraj",
+      "subdivisionIds": [
+        "MY-02",
+        "MY-05",
+        "MY-09",
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 2"
+    },
+    {
+      "date": "2027-01-14",
+      "nameKey": "negeri-sembilan-ruler-birthday",
+      "subdivisionIds": [
+        "MY-05"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 3"
+    },
+    {
+      "date": "2027-01-22",
+      "nameKey": "thaipusam",
+      "subdivisionIds": [
+        "MY-01",
+        "MY-05",
+        "MY-07",
+        "MY-08",
+        "MY-10",
+        "MY-14",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 4"
+    },
+    {
+      "date": "2027-02-01",
+      "nameKey": "federal-territory-day",
+      "subdivisionIds": [
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 5"
+    },
+    {
+      "date": "2027-02-06",
+      "nameKey": "chinese-new-year",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 6"
+    },
+    {
+      "date": "2027-02-07",
+      "nameKey": "chinese-new-year-day-2",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 7,8"
+    },
+    {
+      "date": "2027-02-08",
+      "nameKey": "awal-ramadan",
+      "subdivisionIds": [
+        "MY-01",
+        "MY-02"
+      ],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 9"
+    },
+    {
+      "date": "2027-02-20",
+      "nameKey": "melaka-independence-declaration",
+      "subdivisionIds": [
+        "MY-04"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 10"
+    },
+    {
+      "date": "2027-02-24",
+      "nameKey": "nuzul-quran",
+      "subdivisionIds": [
+        "MY-03",
+        "MY-06",
+        "MY-07",
+        "MY-08",
+        "MY-09",
+        "MY-10",
+        "MY-11",
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 11"
+    },
+    {
+      "date": "2027-03-04",
+      "nameKey": "terengganu-installation",
+      "subdivisionIds": [
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 12"
+    },
+    {
+      "date": "2027-03-10",
+      "nameKey": "hari-raya-puasa",
+      "subdivisionIds": [],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 13"
+    },
+    {
+      "date": "2027-03-11",
+      "nameKey": "hari-raya-puasa-day-2",
+      "subdivisionIds": [],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 14"
+    },
+    {
+      "date": "2027-03-12",
+      "nameKey": "hari-raya-puasa-day-3",
+      "subdivisionIds": [
+        "MY-04"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 15"
+    },
+    {
+      "date": "2027-03-23",
+      "nameKey": "johor-sultan-birthday",
+      "subdivisionIds": [
+        "MY-01"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 16"
+    },
+    {
+      "date": "2027-03-26",
+      "nameKey": "good-friday",
+      "subdivisionIds": [
+        "MY-12",
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 17"
+    },
+    {
+      "date": "2027-03-30",
+      "nameKey": "sabah-governor-birthday",
+      "subdivisionIds": [
+        "MY-12"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 18"
+    },
+    {
+      "date": "2027-04-26",
+      "nameKey": "terengganu-sultan-birthday",
+      "subdivisionIds": [
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 19"
+    },
+    {
+      "date": "2027-05-01",
+      "nameKey": "labour-day",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 20"
+    },
+    {
+      "date": "2027-05-16",
+      "nameKey": "arafah",
+      "subdivisionIds": [
+        "MY-03",
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 21"
+    },
+    {
+      "date": "2027-05-17",
+      "nameKey": "hari-raya-haji",
+      "subdivisionIds": [],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 22"
+    },
+    {
+      "date": "2027-05-17",
+      "nameKey": "perlis-raja-birthday",
+      "subdivisionIds": [
+        "MY-09"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 23"
+    },
+    {
+      "date": "2027-05-18",
+      "nameKey": "hari-raya-haji-day-2",
+      "subdivisionIds": [
+        "MY-02",
+        "MY-03",
+        "MY-09",
+        "MY-11"
+      ],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 24,25"
+    },
+    {
+      "date": "2027-05-20",
+      "nameKey": "vesak",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 26"
+    },
+    {
+      "date": "2027-05-22",
+      "nameKey": "pahang-hol",
+      "subdivisionIds": [
+        "MY-06"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 27"
+    },
+    {
+      "date": "2027-05-30",
+      "nameKey": "kaamatan",
+      "subdivisionIds": [
+        "MY-12",
+        "MY-15"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 28"
+    },
+    {
+      "date": "2027-05-31",
+      "nameKey": "kaamatan-day-2",
+      "subdivisionIds": [
+        "MY-12",
+        "MY-15"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 29"
+    },
+    {
+      "date": "2027-06-01",
+      "nameKey": "gawai",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 30"
+    },
+    {
+      "date": "2027-06-02",
+      "nameKey": "gawai-day-2",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 31"
+    },
+    {
+      "date": "2027-06-06",
+      "nameKey": "awal-muharram",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 32"
+    },
+    {
+      "date": "2027-06-07",
+      "nameKey": "agong-birthday",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 33"
+    },
+    {
+      "date": "2027-06-20",
+      "nameKey": "kedah-sultan-birthday",
+      "subdivisionIds": [
+        "MY-02"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 34"
+    },
+    {
+      "date": "2027-07-07",
+      "nameKey": "george-town-heritage",
+      "subdivisionIds": [
+        "MY-07"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 35"
+    },
+    {
+      "date": "2027-07-10",
+      "nameKey": "penang-governor-birthday",
+      "subdivisionIds": [
+        "MY-07"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 36"
+    },
+    {
+      "date": "2027-07-11",
+      "nameKey": "johor-hol",
+      "subdivisionIds": [
+        "MY-01"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 37"
+    },
+    {
+      "date": "2027-07-22",
+      "nameKey": "sarawak-day",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 38"
+    },
+    {
+      "date": "2027-07-30",
+      "nameKey": "pahang-sultan-birthday",
+      "subdivisionIds": [
+        "MY-06"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 39"
+    },
+    {
+      "date": "2027-08-15",
+      "nameKey": "maulidur-rasul",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 40"
+    },
+    {
+      "date": "2027-08-24",
+      "nameKey": "melaka-governor-birthday",
+      "subdivisionIds": [
+        "MY-04"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 41"
+    },
+    {
+      "date": "2027-08-31",
+      "nameKey": "my-national-day",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 42"
+    },
+    {
+      "date": "2027-09-16",
+      "nameKey": "malaysia-day",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 43"
+    },
+    {
+      "date": "2027-09-29",
+      "nameKey": "kelantan-sultan-birthday",
+      "subdivisionIds": [
+        "MY-03"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 44"
+    },
+    {
+      "date": "2027-09-30",
+      "nameKey": "kelantan-sultan-birthday-day-2",
+      "subdivisionIds": [
+        "MY-03"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 45"
+    },
+    {
+      "date": "2027-10-09",
+      "nameKey": "sarawak-governor-birthday",
+      "subdivisionIds": [
+        "MY-13"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 46"
+    },
+    {
+      "date": "2027-10-28",
+      "nameKey": "deepavali",
+      "subdivisionIds": [
+        "MY-01",
+        "MY-02",
+        "MY-03",
+        "MY-04",
+        "MY-05",
+        "MY-06",
+        "MY-07",
+        "MY-08",
+        "MY-09",
+        "MY-10",
+        "MY-11",
+        "MY-12",
+        "MY-14",
+        "MY-15",
+        "MY-16"
+      ],
+      "status": "provisional",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 47"
+    },
+    {
+      "date": "2027-11-05",
+      "nameKey": "perak-sultan-birthday",
+      "subdivisionIds": [
+        "MY-08"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 48"
+    },
+    {
+      "date": "2027-12-11",
+      "nameKey": "selangor-sultan-birthday",
+      "subdivisionIds": [
+        "MY-10"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 49"
+    },
+    {
+      "date": "2027-12-24",
+      "nameKey": "christmas-eve",
+      "subdivisionIds": [
+        "MY-12"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 50"
+    },
+    {
+      "date": "2027-12-25",
+      "nameKey": "christmas",
+      "subdivisionIds": [],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 51"
+    },
+    {
+      "date": "2027-12-26",
+      "nameKey": "israk-mikraj",
+      "subdivisionIds": [
+        "MY-02",
+        "MY-05",
+        "MY-09",
+        "MY-11"
+      ],
+      "status": "verified",
+      "sourceRefs": [
+        "my-bkpp-2027"
+      ],
+      "evidence": "Combined annual table row(s) 52"
+    }
+  ],
+  "changes": [
+    {
+      "action": "confirm",
+      "targetId": "my-hari-raya-puasa-2026-03-21",
+      "sourceRefs": [
+        "my-eid-announcement-2026"
+      ],
+      "evidence": "The national announcement confirms day one; the annual schedule explicitly supplies subsequent named holiday days."
+    },
+    {
+      "action": "confirm",
+      "targetId": "my-hari-raya-puasa-day-2-2026-03-22",
+      "sourceRefs": [
+        "my-eid-announcement-2026"
+      ],
+      "evidence": "The national announcement confirms day one; the annual schedule explicitly supplies subsequent named holiday days."
+    },
+    {
+      "action": "confirm",
+      "targetId": "my-hari-raya-puasa-day-3-2026-03-23",
+      "sourceRefs": [
+        "my-eid-announcement-2026"
+      ],
+      "evidence": "The national announcement confirms day one; the annual schedule explicitly supplies subsequent named holiday days."
+    },
+    {
+      "action": "confirm",
+      "targetId": "my-hari-raya-haji-2026-05-27",
+      "sourceRefs": [
+        "my-aidiladha-announcement-2026"
+      ],
+      "evidence": "The national announcement confirms day one; the annual schedule explicitly supplies subsequent named holiday days."
+    },
+    {
+      "action": "confirm",
+      "targetId": "my-hari-raya-haji-day-2-2026-05-28",
+      "sourceRefs": [
+        "my-aidiladha-announcement-2026"
+      ],
+      "evidence": "The national announcement confirms day one; the annual schedule explicitly supplies subsequent named holiday days."
+    },
+    {
+      "action": "replace-date",
+      "targetId": "my-kedah-sultan-birthday-2026-06-21",
+      "date": "2026-07-05",
+      "sourceRefs": [
+        "my-kedah-birthday-amendment-2026"
+      ],
+      "evidence": "6 May letter, paragraphs 2-3: birthday celebration and holiday move from 21 June to 5 July 2026."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-thaipusam-2026-02-01-kedah",
+        "eventId": "thaipusam",
+        "date": "2026-02-01",
+        "subdivisionIds": [
+          "MY-02"
+        ],
+        "kind": "public-holiday",
+        "nameKey": "thaipusam",
+        "status": "verified"
+      },
+      "sourceRefs": [
+        "my-kedah-thaipusam-2026"
+      ],
+      "evidence": "20 January signed letter, page 1 paragraph 2; statewide special holiday under section 9(1)."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-thaipusam-2026-02-02-penang",
+        "eventId": "thaipusam",
+        "date": "2026-02-02",
+        "subdivisionIds": [
+          "MY-07"
+        ],
+        "kind": "observed-public-holiday",
+        "nameKey": "thaipusam",
+        "status": "verified",
+        "observedFor": "my-thaipusam-2026-02-01"
+      },
+      "sourceRefs": [
+        "my-penang-thaipusam-observed-2026"
+      ],
+      "evidence": "29 January council statement, page 11 section 9 explicitly names 2 February as Penang replacement holiday."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-additional-eid-2026-03-20-peninsular",
+        "eventId": "additional-eid",
+        "date": "2026-03-20",
+        "subdivisionIds": [
+          "MY-01",
+          "MY-02",
+          "MY-03",
+          "MY-04",
+          "MY-05",
+          "MY-06",
+          "MY-07",
+          "MY-08",
+          "MY-09",
+          "MY-10",
+          "MY-11",
+          "MY-14",
+          "MY-16"
+        ],
+        "kind": "public-holiday",
+        "nameKey": "additional-eid",
+        "status": "verified"
+      },
+      "sourceRefs": [
+        "my-eid-extra-peninsular-2026",
+        "my-eid-announcement-2026"
+      ],
+      "evidence": "P.U. (B) 111 page 3, paragraph (a); the 19 March declaration resolves the 21 March condition. No other replacement date is calculated."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-additional-eid-2026-03-20-labuan",
+        "eventId": "additional-eid",
+        "date": "2026-03-20",
+        "subdivisionIds": [
+          "MY-15"
+        ],
+        "kind": "public-holiday",
+        "nameKey": "additional-eid",
+        "status": "verified"
+      },
+      "sourceRefs": [
+        "my-eid-extra-labuan-2026",
+        "my-eid-announcement-2026"
+      ],
+      "evidence": "P.U. (B) 112 page 3, paragraph (a), Labuan only; the 19 March declaration resolves the condition."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-additional-eid-2026-03-20-sabah",
+        "eventId": "additional-eid",
+        "date": "2026-03-20",
+        "subdivisionIds": [
+          "MY-12"
+        ],
+        "kind": "public-holiday",
+        "nameKey": "additional-eid",
+        "status": "verified"
+      },
+      "sourceRefs": [
+        "my-sabah-extra-eid-2026",
+        "my-eid-announcement-2026"
+      ],
+      "evidence": "Chief Minister statement of 18 March, English and Malay versions; condition resolved by national declaration."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-additional-eid-2026-03-19-kelantan",
+        "eventId": "additional-eid",
+        "date": "2026-03-19",
+        "subdivisionIds": [
+          "MY-03"
+        ],
+        "kind": "public-holiday",
+        "nameKey": "additional-eid",
+        "status": "verified"
+      },
+      "sourceRefs": [
+        "my-kelantan-extra-eid-2026"
+      ],
+      "evidence": "Official 2026 circular index entry explicitly states 19 March and entire Kelantan."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-selangor-silver-jubilee-2026-10-25",
+        "eventId": "selangor-silver-jubilee",
+        "date": "2026-10-25",
+        "subdivisionIds": [
+          "MY-10"
+        ],
+        "kind": "public-holiday",
+        "nameKey": "selangor-silver-jubilee",
+        "status": "verified"
+      },
+      "sourceRefs": [
+        "my-selangor-jubilee-2026"
+      ],
+      "evidence": "JPN notice paragraphs 1-2 state declaration and substitute date."
+    },
+    {
+      "action": "add",
+      "record": {
+        "id": "my-selangor-silver-jubilee-2026-10-26",
+        "eventId": "selangor-silver-jubilee",
+        "date": "2026-10-26",
+        "subdivisionIds": [
+          "MY-10"
+        ],
+        "kind": "observed-public-holiday",
+        "nameKey": "selangor-silver-jubilee",
+        "status": "verified",
+        "observedFor": "my-selangor-silver-jubilee-2026-10-25"
+      },
+      "sourceRefs": [
+        "my-selangor-jubilee-2026"
+      ],
+      "evidence": "JPN notice paragraph 2 explicitly states 26 October replacement; no inferred roll-forward."
+    }
+  ],
+  "coverageNote": "Annual schedules are transcribed for all sixteen jurisdictions. Only individually verified amendments and substitute dates are added; total public-holiday coverage remains incomplete.",
+  "sources": [
+    {
+      "id": "my-bkpp-2026",
+      "publisher": "BKPP, Prime Minister's Department",
+      "title": "Federal and state public holiday schedule 2026",
+      "url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+      "license": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-11-12",
+      "retrievedAt": "2026-11-12T06:18:17Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "415023261014e30880b0fbb7a40c47a9655605183ef976204489d760fed769a3",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes. The source does not state a publication date; updatedAt records this curation review date."
+    },
+    {
+      "id": "my-bkpp-2027",
+      "publisher": "BKPP, Prime Minister's Department",
+      "title": "Federal and state public holiday schedule 2027",
+      "url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+      "license": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+      "country": "MY",
+      "years": [
+        2027
+      ],
+      "updatedAt": "2026-08-20",
+      "retrievedAt": "2026-11-12T06:18:18Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "4b13d6b956ebba64e8ca80209f838439b2956a193fa37957e6446531752f96f9",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-eid-extra-peninsular-2026",
+      "publisher": "Federal Government Gazette",
+      "title": "P.U. (B) 111: additional Aidilfitri holiday, Peninsular Malaysia",
+      "url": "https://www.kabinet.gov.my/storage/2026/03/PUB-111_2026.pdf",
+      "license": "https://www.kabinet.gov.my/storage/2026/03/PUB-111_2026.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-03-18",
+      "retrievedAt": "2026-11-12T06:18:47Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "3ed630f9574fce4cbf0e4ba6303a3f071505fc99e886c59b36a1dac12cfeda07",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-eid-extra-labuan-2026",
+      "publisher": "Federal Government Gazette",
+      "title": "P.U. (B) 112: additional Aidilfitri holiday, Labuan",
+      "url": "https://www.kabinet.gov.my/storage/2026/03/PUB-112_2026.pdf",
+      "license": "https://www.kabinet.gov.my/storage/2026/03/PUB-112_2026.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-03-18",
+      "retrievedAt": "2026-11-12T06:18:47Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "75b4ff6b202c4827d70f5f313d5d772f5bde12ddc1bcce771d7de412a3a12bf5",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-eid-announcement-2026",
+      "publisher": "Keeper of the Rulers' Seal / Department of Information",
+      "title": "National Aidilfitri date announcement",
+      "url": "https://dmedia.penerangan.gov.my/upload/sm/19032026.1309983745.pdf",
+      "license": "https://dmedia.penerangan.gov.my/upload/sm/19032026.1309983745.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-03-19",
+      "retrievedAt": "2026-11-12T06:17:50Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "bed4b09fb34662518bd16f79fdcba1297bc67526f4d6c8be04d7cf35f9393070",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-kedah-birthday-amendment-2026",
+      "publisher": "Kedah State Government",
+      "title": "Revised Sultan of Kedah birthday holiday",
+      "url": "https://www.kedah.gov.my/wp-content/uploads/2026/05/DOC070526-07052026114442.pdf",
+      "license": "https://www.kedah.gov.my/wp-content/uploads/2026/05/DOC070526-07052026114442.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-05-06",
+      "retrievedAt": "2026-11-12T06:22:10Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "d01818020d5a5b5d893adc0709d2ea85f4cb4609422897876b0e7ec0db4e9c6e",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-kedah-thaipusam-2026",
+      "publisher": "Kedah State Government",
+      "title": "Thaipusam special holiday declaration",
+      "url": "https://www.kedah.gov.my/wp-content/uploads/2026/01/Cuti-Peristiwa-Thaipusam-Negeri-Kedah-Darul-Aman-2026.pdf",
+      "license": "https://www.kedah.gov.my/wp-content/uploads/2026/01/Cuti-Peristiwa-Thaipusam-Negeri-Kedah-Darul-Aman-2026.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-01-20",
+      "retrievedAt": "2026-11-12T06:27:33Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "c4cf0a8cc3f9eef0d29a061b300c68ab5808762a211c12104834f19bc07cdd90",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-aidiladha-announcement-2026",
+      "publisher": "Kedah State Government",
+      "title": "Report of national Aidiladha date announcement",
+      "url": "https://www.kedah.gov.my/index.php/2026/05/17/hari-raya-aidiladha-1447h-disambut-pada-27-mei-2026/",
+      "license": "https://www.kedah.gov.my/index.php/2026/05/17/hari-raya-aidiladha-1447h-disambut-pada-27-mei-2026/",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-05-17",
+      "retrievedAt": "2026-11-12T06:27:44Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "eb4f624f3600ffff3025c45f3e4bc02d242b28eb06dd25b3cf0b62232f095e00",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-penang-thaipusam-observed-2026",
+      "publisher": "Seberang Perai City Council",
+      "title": "Mayor statement, full council meeting 619, section 9",
+      "url": "https://www.mbsp.gov.my/db/kenyataan/2026/januari.pdf",
+      "license": "https://www.mbsp.gov.my/db/kenyataan/2026/januari.pdf",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "updatedAt": "2026-01-29",
+      "retrievedAt": "2026-11-12T06:22:10Z",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "3bd8a0552413949da19947c6a31ef4bc83a1274dc640189ad0f0df8bf33b7171",
+      "attribution": "Original factual transcription; source document and artwork are not redistributed. SHA-256 identifies the retrieved source bytes."
+    },
+    {
+      "id": "my-kelantan-extra-eid-2026",
+      "publisher": "Kelantan State Secretary Office",
+      "title": "Additional Aidilfitri holiday declaration index",
+      "url": "https://jps.kelantan.gov.my/index.php/arahan-psuk/96-2026",
+      "updatedAt": "2026-11-12",
+      "license": "https://jps.kelantan.gov.my/index.php/arahan-psuk/96-2026",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "retrievedAt": "2026-11-12",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "8e559016e4d0be2d3149f90d47339482ab3e568221641b789046dda61fc2536e",
+      "attribution": "Original factual reference to the official publication. No page text or artwork is reproduced. SHA-256 identifies the factualReferences entry serialized as compact UTF-8 JSON, not the publisher page."
+    },
+    {
+      "id": "my-sabah-extra-eid-2026",
+      "publisher": "Sabah Chief Minister Office",
+      "title": "Additional Aidilfitri holiday announcement",
+      "url": "https://cm.sabah.gov.my/index.php/siaran-media/6439",
+      "updatedAt": "2026-03-18",
+      "license": "https://cm.sabah.gov.my/index.php/siaran-media/6439",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "retrievedAt": "2026-11-12",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "cd2deefcc8258f903e1914b821676bee03fa4b04fc80f5a747bea06865d21238",
+      "attribution": "Original factual reference to the official publication. No page text or artwork is reproduced. SHA-256 identifies the factualReferences entry serialized as compact UTF-8 JSON, not the publisher page."
+    },
+    {
+      "id": "my-selangor-jubilee-2026",
+      "publisher": "National Registration Department",
+      "title": "Selangor Silver Jubilee holiday and replacement notice",
+      "url": "https://www.jpn.gov.my/pengumuman/makluman-cuti-peristiwa-bagi-pusat-rekod-pendaftaran-negara-prpn-cyberjaya-sempena-sambutan-jubli-perak-25-tahun-pemerintahan-sultan-selangor-2026/",
+      "updatedAt": "2026-10-26",
+      "license": "https://www.jpn.gov.my/pengumuman/makluman-cuti-peristiwa-bagi-pusat-rekod-pendaftaran-negara-prpn-cyberjaya-sempena-sambutan-jubli-perak-25-tahun-pemerintahan-sultan-selangor-2026/",
+      "country": "MY",
+      "years": [
+        2026
+      ],
+      "retrievedAt": "2026-11-12",
+      "verifiedAt": "2026-11-12",
+      "reviewer": "Codex: direct BKPP PDFs, rendered page and column review",
+      "rightsKind": "factual-reference",
+      "sha256": "69fedccc8f9212e0a6d03a52955543cef9ca6980702f0b79e86c2a0fb702380a",
+      "attribution": "Original factual reference to the official publication. No page text or artwork is reproduced. SHA-256 identifies the factualReferences entry serialized as compact UTF-8 JSON, not the publisher page."
+    }
+  ],
+  "factualReferences": [
+    {
+      "id": "my-kelantan-extra-eid-2026",
+      "publisher": "Kelantan State Secretary Office",
+      "title": "Additional Aidilfitri holiday declaration index",
+      "url": "https://jps.kelantan.gov.my/index.php/arahan-psuk/96-2026",
+      "updatedAt": "2026-11-12",
+      "facts": "The 2026 official circular index identifies 19 March 2026 as an additional public holiday throughout Kelantan. The PDF attachment was not inspected; the dated, statewide declaration is explicit in the index entry. updatedAt is the curation review date, not an inferred publication date."
+    },
+    {
+      "id": "my-sabah-extra-eid-2026",
+      "publisher": "Sabah Chief Minister Office",
+      "title": "Additional Aidilfitri holiday announcement",
+      "url": "https://cm.sabah.gov.my/index.php/siaran-media/6439",
+      "updatedAt": "2026-03-18",
+      "facts": "The bilingual 18 March 2026 statement identifies a Sabah additional holiday on 20 March if Aidilfitri falls on 21 March, otherwise 23 March if Aidilfitri falls on 20 March. The national announcement confirms the first condition."
+    },
+    {
+      "id": "my-selangor-jubilee-2026",
+      "publisher": "National Registration Department",
+      "title": "Selangor Silver Jubilee holiday and replacement notice",
+      "url": "https://www.jpn.gov.my/pengumuman/makluman-cuti-peristiwa-bagi-pusat-rekod-pendaftaran-negara-prpn-cyberjaya-sempena-sambutan-jubli-perak-25-tahun-pemerintahan-sultan-selangor-2026/",
+      "updatedAt": "2026-10-26",
+      "facts": "The official notice identifies the Selangor-declared Silver Jubilee special holiday on 25 October 2026 and the replacement public holiday on 26 October. The calendar does not determine individual employment entitlements."
+    }
+  ]
+}

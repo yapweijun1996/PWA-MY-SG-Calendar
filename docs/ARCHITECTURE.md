@@ -1,6 +1,14 @@
-# Proposed Architecture
+# Application Architecture
 
-Status: proposal, not an implemented module map. Baseline: 2026-11-12.
+Status: implemented local boundaries with remaining source/platform gates, 2026-11-12.
+
+## Implemented foundation
+
+`app/` contains the React calendar UI, pure domain modules, IndexedDB repository,
+four message catalogs and the PWA lifecycle. Its Vite build
+uses `dist-app/`; the existing documentation generator continues to own `dist/`.
+Both use one root package and lockfile with separate commands. The existing Pages
+workflow publishes only the documentation output. The calendar is not deployed.
 
 ## Design direction
 
@@ -13,7 +21,7 @@ over normalized, pinned HKO 2026-2027 tables. Fetch upstream data during control
 pack preparation, not on every page view. Keep runtime lookup independent of browser
 calendar support. See [data sources and methods](DATA-SOURCES.md).
 
-| Proposed owner | Responsibility | Boundary |
+| Implemented owner | Responsibility | Boundary |
 | --- | --- | --- |
 | Calendar domain | Date-only arithmetic and calendar adapters | Pure inputs/outputs; no DOM, network or persistence |
 | Holiday catalog | Applicability, provenance and record lookup | No UI translations used as keys; no inferred official dates |
@@ -51,13 +59,18 @@ validated pack and show its version/status. Do not mix partially updated records
 - Coordinate waiting-worker activation across open tabs; preserve selected date,
   region and preferences across update/reload. Bound retries and show recovery.
 
-IndexedDB provides transactional browser storage; the actual schema and migration
-implementation are still to be designed. See the [MDN API reference](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API).
+IndexedDB database `my-sg-calendar`, version 1, owns the `state` object store.
+`active-chinese` / `previous-chinese` and `active-holidays` / `previous-holidays`
+are independently validated and atomically replaced per pack. Schema 1 has no
+cross-pack coupling. Preferences have one validated record and serialized writes.
+A newer incompatible database is rejected without deletion. Corrupt active packs
+fall back to the last validated previous pack. Future schema changes require an
+explicit migration and compatibility test; no destructive downgrade is implemented.
 
 ## Offline and update boundary
 
-Cache the application shell and validated public packs required for the declared
-offline contract. Avoid accidental reliance on remote fonts/scripts for core
+Workbox precaches the shell, scripts, local icons and notices. Validated public
+packs live only in IndexedDB, not a second service-worker data cache. Avoid accidental reliance on remote fonts/scripts for core
 offline operation. A cold first visit without network cannot promise a downloaded
 application. A warm visit may only promise packs actually available locally.
 
@@ -65,7 +78,15 @@ Use immutable assets and a separate freshness policy for HTML/worker discovery.
 Show a waiting update, accept an explicit user action, show an updating state,
 activate, and reload after the controller transition. See
 [Workbox update guidance](https://developer.chrome.com/docs/workbox/handling-service-worker-updates).
-Exact library integration is deferred until package selection.
+`vite-plugin-pwa` uses injectManifest and a custom Workbox worker. Cache names
+include `my-sg-calendar` and the registration scope. There is no origin-wide cache
+or storage deletion. `base: './'` supports the tested `/calendar/` subpath.
+
+The waiting worker activates only after an explicit action. The initiating tab
+flushes preferences, shows progress, prevents duplicate activation and reloads on
+controller change. Other open tabs keep their page and offer an explicit reload.
+A 15-second activation timeout exposes recovery. App build, data version and
+storage schema identities are independent; cold offline visits cannot load the app.
 
 ## Hosting and security
 
