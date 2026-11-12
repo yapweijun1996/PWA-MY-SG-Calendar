@@ -9,6 +9,12 @@ Environment: Windows, Node 25.2.1, npm 11.6.2, Chrome 157.0.8103.51 via
 Playwright 1.65.0; working tree based on `2666491`. Four locales: en, zh-Hans,
 ms, ta. This evidence supersedes the foundation-only scope below, not its history.
 
+GitHub Actions run 43170966759 failed `npm ci` on Linux with Node 24.22.2 and
+npm 11.19.1 because the lockfile omitted two optional `@emnapi` entries. The same
+failure was reproduced on WSL Ubuntu with those exact versions. Regenerating the
+lockfile in a clean Linux directory added the missing entries; a clean `npm ci`,
+documentation build and documentation check then passed in that environment.
+
 | Check | Result and evidence | Limit |
 | --- | --- | --- |
 | Types/lint/unit/integration | PASS, `npm run check:app`: 90 tests in 8 files | Includes arithmetic Hijri, MY source/scope/correction fixtures and cultural/official separation |

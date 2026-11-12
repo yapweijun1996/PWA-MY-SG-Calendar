@@ -630,6 +630,18 @@
     "development": true
   },
   {
+    "name": "@emnapi/core",
+    "version": "2.0.0-beta.2",
+    "license": "MIT",
+    "development": true
+  },
+  {
+    "name": "@emnapi/runtime",
+    "version": "2.0.0-beta.2",
+    "license": "MIT",
+    "development": true
+  },
+  {
     "name": "@emnapi/wasi-threads",
     "version": "2.2.0",
     "license": "MIT",

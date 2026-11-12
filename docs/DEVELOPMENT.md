@@ -77,7 +77,7 @@ Configuration references: [Vite](https://vite.dev/guide/),
 
 Code and original SVG/PNG icons use the owner-selected MIT license. System fonts
 are used; no font files are bundled. `npm run licenses:build` creates an inventory
-of all 550 locked dependency entries and copies the full MIT notices for React,
+of all 552 locked dependency entries and copies the full MIT notices for React,
 React DOM, Scheduler and Workbox into the distributable application. The root
 license is copied as `app/public/LICENSE.txt`. All inventory entries have explicit
 license metadata; this inventory does not replace each package's actual terms.
