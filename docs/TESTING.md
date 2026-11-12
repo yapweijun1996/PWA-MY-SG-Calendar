@@ -88,7 +88,8 @@ baseline. It predates MY ingestion and is not the current preview.
   both MY annual schedule snapshots are now ingested.
   Owner-approved arithmetic Hijri estimates replace the regional mapping requirement;
   no MUIS data is distributed.
-- Authorized application destination, qualified release artifact and live read-back.
+- Live read-back of the owner-authorized GitHub Pages calendar preview and a
+  qualified release artifact after the remaining gates.
 
 The project owner accepted data-maintenance responsibility. These unrun gates
 keep T07, T12-T17 and T19-T21 partial or blocked as specified in task.md. T18 is

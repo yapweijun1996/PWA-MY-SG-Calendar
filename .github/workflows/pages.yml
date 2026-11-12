@@ -1,4 +1,4 @@
-name: Deploy project documentation to Pages
+name: Deploy calendar and documentation to Pages
 
 on:
   push:
@@ -26,6 +26,17 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run check
+      - run: npm run check:app
+      - run: npm run build:app
+        env:
+          CALENDAR_BUILD_ID: ${{ github.sha }}
+      - name: Assemble calendar at /calendar/
+        run: |
+          mkdir -p dist/calendar
+          cp -a dist-app/. dist/calendar/
+          test -f dist/calendar/index.html
+          test -f dist/calendar/sw.js
+          test -f dist/calendar/data/manifest.json
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request'
         with:

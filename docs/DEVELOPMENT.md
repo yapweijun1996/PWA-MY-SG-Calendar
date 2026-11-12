@@ -43,8 +43,8 @@ packs and owns IndexedDB. `use-calendar.ts` coordinates loading/preferences;
 `vite.app.config.ts` owns the app root/output and test configuration;
 Vitest uses at most two workers to avoid resource contention in local browser/DOM tests.
 `tsconfig.app.json` enables strict checking. App build output is isolated from the
-documentation publication allowlist. Do not copy `dist-app/` into `dist/` or change
-the existing Pages workflow as an incidental application change. See
+documentation publication allowlist. The authorized Pages workflow first checks the
+documentation allowlist, then copies `dist-app/` into `dist/calendar/` for deployment. See
 [deployment](DEPLOYMENT.md) for the documentation-site release contract.
 
 Direct dependencies are pinned in the package and transitive dependencies in the
@@ -120,7 +120,7 @@ Schema 1 recovery retains the last valid pack. For a correction, publish a new
 validated pack/version; do not delete user storage. For a shell rollback, rebuild
 the known compatible source with a fresh build ID so the worker offers it as an
 explicit update. Do not roll the IndexedDB schema backwards. The local two-build
-test is a recovery exercise; no live rollback or previous public release exists.
+test is a recovery exercise; no live rollback or previous qualified release exists.
 
 ## Implementation conventions
 

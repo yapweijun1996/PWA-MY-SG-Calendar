@@ -7,8 +7,9 @@ Status: implemented local boundaries with remaining source/platform gates, 2026-
 `app/` contains the React calendar UI, pure domain modules, IndexedDB repository,
 four message catalogs and the PWA lifecycle. Its Vite build
 uses `dist-app/`; the existing documentation generator continues to own `dist/`.
-Both use one root package and lockfile with separate commands. The existing Pages
-workflow publishes only the documentation output. The calendar is not deployed.
+Both use one root package and lockfile with separate commands. The Pages workflow
+assembles the calendar at `/calendar/` beneath the documentation site; its worker
+scope and storage belong to the calendar application.
 
 ## Design direction
 

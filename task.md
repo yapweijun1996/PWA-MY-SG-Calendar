@@ -67,7 +67,7 @@ the selected Chinese-first baseline because later methods remain deferred.
 | D03: data authority/maintenance | PARTIAL | HKO and MOM sources pinned; project owner accepted maintenance; MY coverage/amendments unresolved |
 | D04: interaction/design | APPROVED | Owner accepted v1; light neutral/green, desktop right detail/mobile below, Monday configurable; visible SG default |
 | D05: licensing/languages | PARTIAL | Owner selected MIT; data notices and dependency inventory implemented; competent language review pending; no MUIS redistribution permission |
-| D06: calendar publication | OPEN | Reconcile the existing documentation-site destination/workflow with the calendar release; verify applicable authorization and one deployment owner before publishing |
+| D06: calendar publication | AUTHORIZED PREVIEW | Owner authorized the existing GitHub Pages workflow to publish a calendar preview at `/calendar/`; live verification and full release gates remain separate |
 
 Deferred methods and full MY/SG holiday research do not block the Chinese
 milestone. Do not display nonfunctional region/holiday selectors. Four-language
@@ -251,9 +251,9 @@ architecture and PWA/platform requirements remain in scope.
   and a known previous artifact thereafter. No destructive schema downgrade.
 
 - [ ] **T15 - Publish and verify the authorized milestone release.**
-  Status: BLOCKED. Owner: project owner / deployment owner. T14 release gates and
-  application destination/authorization are pending. Existing documentation
-  workflow remains unchanged; no application was published.
+  Status: IN PROGRESS. Owner: project owner / deployment owner. A GitHub Pages
+  preview is authorized; workflow deployment and live verification are required.
+  T14's release gates remain incomplete, so the preview is not a qualified release.
   Evidence: [Local implementation verification](docs/TESTING.md#local-implementation-verification).
   Dependencies: T14, D06 and applicable release gates.
   Use one deployment owner and the selected process. Verify published identity,

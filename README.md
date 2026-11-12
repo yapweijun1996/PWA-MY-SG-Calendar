@@ -1,6 +1,6 @@
 # PWA-MY-SG-Calendar
 
-An offline-capable Malaysia and Singapore multicultural calendar in local development.
+An offline-capable Malaysia and Singapore multicultural calendar in preview.
 
 ## Status
 
@@ -12,10 +12,12 @@ schedules with selected verified amendments. IndexedDB storage,
 a scoped Workbox shell and user-controlled updates are implemented and tested in
 Chrome. The owner approved the light neutral/green visual direction.
 
-This is a partial product, not a published release. Complete Malaysian special/replacement holiday coverage,
+This is a partial product. Complete Malaysian special/replacement holiday coverage,
 curated observances, independent language review,
 screen-reader testing and installed-device acceptance remain incomplete. Incomplete
-and unknown coverage are shown explicitly. See [task status](task.md) and [evidence](docs/TESTING.md).
+and unknown coverage are shown explicitly. The GitHub Pages workflow publishes the
+[calendar preview](https://yapweijun1996.github.io/PWA-MY-SG-Calendar/calendar/).
+See [task status](task.md) and [evidence](docs/TESTING.md).
 
 The owner-selected first milestone is the Chinese calendar: Gregorian + Chinese
 lunar month/day views. The engineering target is 2026-2027 using HKO annual data;
@@ -38,11 +40,11 @@ proven through the acceptance matrix, not inferred from using web technology.
 | Build and PWA | Vite + Workbox |
 | Calendar logic | Testable JavaScript/TypeScript adapters |
 | Offline storage | IndexedDB |
-| Static hosting | Relative-base build prepared; application publication pending |
+| Static hosting | GitHub Pages preview under `/PWA-MY-SG-Calendar/calendar/` |
 | Optional future work | Rust/WASM astronomy; PostgreSQL-backed services |
 
 Dependencies are pinned in `package.json` and `package-lock.json`.
-The existing GitHub Pages workflow still publishes the separate documentation site.
+The GitHub Pages workflow publishes the documentation site and calendar preview.
 See DEVELOPMENT for executable commands.
 
 ## Documentation map
