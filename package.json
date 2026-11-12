@@ -1,0 +1,12 @@
+{
+  "name": "pwa-my-sg-calendar-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/check-site.mjs"
+  },
+  "devDependencies": { "marked": "18.2.0" }
+}
