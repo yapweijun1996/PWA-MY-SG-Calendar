@@ -1,0 +1,2 @@
+# The download manifest identifies these files by their generated LF bytes.
+public/data/*.json text eol=lf

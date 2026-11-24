@@ -1,7 +1,22 @@
 # Verification and Release Readiness
 
 Status: local domain/storage/browser/PWA checks pass; full release acceptance is partial.
-Updated: 2026-11-12.
+Updated: 2026-11-24.
+
+## Windows checkout and built-pack integrity
+
+On Windows (Node 25.2.1, Chrome 159.0.8154.13, working tree based on `11a4918`),
+`core.autocrlf=true` previously changed the shipped JSON bytes without changing
+their parsed data. The new build check rejected that checkout. With the scoped
+LF rules, isolated checkouts using both `core.autocrlf=true` and `false` produced
+the committed manifest and pack hashes before and after `npm run data:build`.
+A valid production build passed; changing or deleting only a built holiday pack
+failed the check with the source pack intact.
+
+Regression: 90 unit/integration tests and 20 Chrome browser cases passed. The
+`test-1795513386055-N`/`-N1` PWA run passed warm offline data access, region
+switching and explicit updates at `/calendar/`. No installed-device or live
+Pages test was run for this fix.
 
 ## Local implementation verification
 

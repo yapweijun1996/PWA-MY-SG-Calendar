@@ -16,7 +16,7 @@ on Windows use `npm.cmd` if PowerShell blocks the npm script shim.
 | `npm run lint:app` | ESLint checks of app source and Vite configuration |
 | `npm run test:app` | Domain, pack, IndexedDB integration and entry tests |
 | `npm run check:app` | Typecheck, lint and test in sequence |
-| `npm run build:app` | Typecheck and production app build into `dist-app/` |
+| `npm run build:app` | Typecheck, build into `dist-app/`, then verify the shipped data packs against the built manifest |
 | `npm run preview:app` | Serve the built app at `http://127.0.0.1:4175` |
 | `npm run test:browser` | Build, start isolated dev/preview servers and test both in installed Chrome |
 | `npm run test:pwa` | Build N/N+1 in temporary directories; test subpath offline/update/failure/multi-tab behavior |
@@ -88,6 +88,20 @@ prose, PDF artwork and logos are not distributed. Saka and arithmetic Hijri are
 independently written algorithms with reference fixtures. No MUIS mapping is used.
 Human translation review is still pending; original strings are not advertised as
 independently reviewed merely because the catalogs are complete.
+
+## Calendar pack byte integrity
+
+The browser hashes downloaded bytes, not parsed JSON. Git must check out
+`app/public/data/*.json` with LF even on Windows. The same applies to
+`data/curated/chinese-observances.json`: its byte fingerprint contributes to the
+holiday pack version. Raw publisher snapshots keep their existing byte rules.
+
+`npm run build:app` fails if a shipped pack is missing or its checksum/version
+does not match `dist-app/data/manifest.json`. To recheck an existing build, run
+`node scripts/check-built-packs.mjs`. If an older checkout still reports a
+checksum mismatch, inspect `git ls-files --eol -- app/public/data data/curated/chinese-observances.json`.
+Preserve local edits and use a fresh checkout with the LF rules if any listed
+file shows `w/crlf`. Do not change the manifest to bless the wrong bytes.
 
 ## Maintenance and correction ownership
 

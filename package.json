@@ -19,7 +19,7 @@
     "lint:app": "eslint app vite.app.config.ts playwright.config.ts --max-warnings 0",
     "test:app": "vitest run --config vite.app.config.ts",
     "check:app": "npm run typecheck:app && npm run lint:app && npm run test:app",
-    "build:app": "npm run typecheck:app && vite build --config vite.app.config.ts",
+    "build:app": "npm run typecheck:app && vite build --config vite.app.config.ts && node scripts/check-built-packs.mjs",
     "preview:app": "vite preview --config vite.app.config.ts",
     "test:browser": "npm run build:app && playwright test"
   },
