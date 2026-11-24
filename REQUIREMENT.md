@@ -1,0 +1,31 @@
+# Requirements: what counts as a complete calendar feature?
+
+A person planning a trip between Malaysia and Singapore needs two answers: **What date is this in each calendar? Is it a public holiday where I will be?** The first answer comes from a named calendar method. The second requires evidence for that place and year. Neither a festival name nor an empty search result settles the second question.
+
+Use this checklist when changing a feature. The [PRD](docs/PRD.md) owns product decisions; the [feature map](docs/FEATURE-MAP.md) shows where each action lives. The first milestone is Gregorian navigation with Chinese lunar dates for 2026–2027. It is not a claim that every holiday, language or platform has passed acceptance. Personal scheduling, accounts, cloud sync, notifications, AI and leave-entitlement calculations are outside the current scope.
+
+## Acceptance by user task
+
+| PRD ID | Required outcome | Acceptance check |
+| --- | --- | --- |
+| R01 · Compare dates | Browse a month, select Today or jump to a civil date. Show Chinese lunar dates from the Hong Kong Observatory tables (2026–2027), and Indian national Saka and **estimated** arithmetic Hijri dates (1900–2100). Name the method and its limits. | Select `2026-02-17`: the lunar result is month 1, day 1 regardless of device timezone. Jump to `2028-01-01`: Saka and Hijri remain available while Chinese lunar information is unavailable. Do not extrapolate the table. |
+| R02 · Identify an observance | Label cultural observances separately from public holidays. An observed or substitute holiday needs its own source-backed date and a link to the original holiday. | In Singapore, `2026-09-25` lists Mid-Autumn Festival as an observance, not a public holiday. On `2027-02-08`, the observed public holiday links to `2027-02-07`. Neither record is inferred from the weekday. |
+| R03 · Check a region | Support Singapore, all 13 Malaysian states and all 3 federal territories. Combine applicable national and local records without duplicates. Show sources for the selected region and year; flag provisional or disputed records and omit withdrawn ones. | Select `2026-02-19` in Johor: show Awal Ramadan **and** incomplete coverage. Switch to Singapore: keep the date, remove the Johor record and show a verified empty public-holiday result. For 2028 the result is unknown, not empty. |
+| R04 · Change language | Offer English, Simplified Chinese, Malay and Tamil (`en`, `zh-Hans`, `ms`, `ta`). Translate controls, event labels, status messages and accessible names; never use translated text as a record ID. | Switch through all four locales: retain the visible month, selected day, region and event identity. Check real long labels at phone width. Catalog completeness is not independent language review. |
+| R05 · Navigate accessibly | Keep the month grid primary and day details beside it on desktop or below it on narrow screens. Touch and keyboard users must be able to select a day, read sources and return from settings. Target WCAG 2.2 AA. | Arrow to another day: focus moves but selection stays. Press Enter to select it. Close settings with Escape: focus returns to its opener. Verify reflow, zoom, screen-reader output and installed-device safe areas on the applicable platforms. |
+| R06 · Reopen offline | After an online visit with saved packs, reopen the app offline with the same date, region, language and week start. Distinguish cached data from a missing pack or session-only storage. | Reopen offline with a saved pack, then repeat with the pack evicted: the second visit must not report verified absence of holidays. A first-ever offline visit cannot promise an app shell or data. |
+
+## Integrity and recovery checks
+
+- **When methods disagree, keep both facts.** The arithmetic Hijri estimate for `2026-03-20` is 1 Shawwal 1447; Singapore's sourced Hari Raya Puasa holiday is `2026-03-21`. Do not move the holiday to make the displays agree. See [calendar methods and sources](docs/DATA-SOURCES.md).
+- **Verify the list separately from the record.** Only verified coverage for the selected region, year and category permits “no applicable records.” An individually verified event may belong to an incomplete annual list. Retain source, verification date, version and attribution; a fresh download is not a fresh verification. See the [data contract](docs/DATA-CONTRACT.md).
+- **A failed data refresh must preserve the last good data.** Check the manifest, checksum, version and record validity before replacing a pack. Reject an invalid replacement, preserve preferences, show the failure and allow retry. If storage is denied, do not promise that the session will survive a restart.
+- **An app update is a separate decision.** Offer Update or Later. Later leaves the calendar usable. On acceptance, show progress, prevent duplicate activation, save preferences and reload the accepting tab after the worker transition. Other tabs retain control of their reload; cleanup must leave other apps' storage alone.
+
+## Smallest complete change
+
+1. Name the user action, the PRD row it serves and the result that must not change. If the existing path already satisfies it, add evidence rather than another implementation.
+2. Make the change where the rule is defined. For example, correct a holiday in its curated source and regenerate the pack; do not patch the grid and day detail separately. Keep date and applicability rules outside translated UI text. Do not add a service, dependency or abstraction without a requirement it solves.
+3. A function is complete when valid input produces the intended result **and** invalid, unsupported or unavailable input has a defined outcome. Test that boundary and the user-visible path it affects. Fewer lines are useful only if validation, accessibility and recovery still work.
+
+**Release boundary:** [Testing and release](docs/TESTING.md) records local domain, storage, Chrome and two-build offline/update evidence. Malaysian special/replacement holiday reconciliation, broader observance curation, independent four-language review, real screen-reader and installed-device checks (including Android, iPhone and iPad), and live preview verification remain open. Record unrun checks as **NOT RUN**; a working preview is not a qualified release. See [completion tasks](task.md) for owners and remaining work.

@@ -52,11 +52,14 @@ See DEVELOPMENT for executable commands.
 | Document | Owns |
 | --- | --- |
 | [AGENTS.md](AGENTS.md) | Project-specific agent constraints |
+| [Feature map](docs/FEATURE-MAP.md) | User journeys, screen layout, calendar and regional holiday logic, and coverage limits |
 | [PRD](docs/PRD.md) | Requirements, proposed release scope and open product decisions |
+| [Requirement checklist](REQUIREMENT.md) | Acceptance examples and the smallest complete change for each user task |
 | [Architecture](docs/ARCHITECTURE.md) | Implemented boundaries, state ownership and remaining proposals |
 | [Data contract](docs/DATA-CONTRACT.md) | Date, holiday, source and coverage semantics |
 | [Data sources and methods](docs/DATA-SOURCES.md) | Chinese-first scope, selected method and source verification |
 | [UI standard](docs/UI-STANDARD.md) | Calendar interaction, accessibility and PWA UX acceptance |
+| [Desktop and mobile layout guide](UIUXLAYOUT.md) | Screen diagrams, layout trade-offs and tasks for evaluating the design |
 | [Testing and release](docs/TESTING.md) | Requirement checks, evidence and release readiness |
 | [Development](docs/DEVELOPMENT.md) | Workflow, coding conventions and roadmap |
 | [Completion tasks](task.md) | Actionable backlog, dependencies, decision gates and completion evidence |
